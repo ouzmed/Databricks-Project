@@ -5,6 +5,7 @@ a- Data sources (ADLS GEN2)
 -Customer data
 -Customer Drivers
 -Loan Transactions
+
 b- Processing using databricks:
 - Used the delta tables (bronze, silver, gold)
 - Implemented incremental loading and processing of bank customer without duplication by using upsert and loan data
