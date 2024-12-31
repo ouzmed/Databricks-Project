@@ -1,0 +1,21 @@
+{
+	"name": "ls_sqlserver",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "localhost\\",
+			"database": "bankloan",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "simo",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyMGNmZWVmYy04NjY4LTQyNjYtOGVkMy1jNGRhNmMxMmIxMTciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-02",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "adf-bankloan-dev",
+	"location": "francecentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "744292bf-bf29-482b-bf54-f38ad02305c4",
+		"tenantId": "4209cd04-f7af-4bd7-b1ec-e395a24b2b40"
+	}
+}

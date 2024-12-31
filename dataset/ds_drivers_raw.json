@@ -1,0 +1,51 @@
+{
+	"name": "ds_drivers_raw",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "sources"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "/ouzmed/datasets/refs/heads/main/customerDrivers_2023-01-15.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "date",
+				"type": "String"
+			},
+			{
+				"name": "customerId",
+				"type": "String"
+			},
+			{
+				"name": "monthly_salary",
+				"type": "String"
+			},
+			{
+				"name": "health_score",
+				"type": "String"
+			},
+			{
+				"name": "current_debt",
+				"type": "String"
+			},
+			{
+				"name": "category",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
