@@ -68,6 +68,7 @@ writeData()
 
 # COMMAND ----------
 
+# DBTITLE 1,check the watermark table
 # MAGIC %sql
 # MAGIC select watermark_time from watermark_tb
 # MAGIC where process_name='ingestion_customer'
